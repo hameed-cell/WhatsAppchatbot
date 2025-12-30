@@ -2,7 +2,7 @@ from whatsapp_chatbot_python import GreenAPIBot, Notification
 
 bot = GreenAPIBot(
     "7105440419",
-    "77b88741bcc44531b820423138b142ddae420073cea843ea87"
+    "653681d47b7e4a4f9c7f56220844a7e9bb231a885f644c3898"
 )
 
 WEB_OWNER = "923462831053@c.us"
@@ -254,6 +254,7 @@ def handler(notification: Notification):
 
 
 bot.run_forever()
+
 
 
 
