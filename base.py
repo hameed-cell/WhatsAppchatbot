@@ -1,13 +1,13 @@
 from whatsapp_chatbot_python import GreenAPIBot, Notification
 
 bot = GreenAPIBot(
-    "paste here api token",
-    "paste here api keys "
+    "7105440419",
+    "77b88741bcc44531b820423138b142ddae420073cea843ea87"
 )
 
-WEB_OWNER = "+number@c.us"
-VOIP_OWNER = "+number@c.us"
-HR_NUMBER = "+number@c.us"
+WEB_OWNER = "923462831053@c.us"
+VOIP_OWNER = "18639901187@c.us"
+HR_NUMBER = "923462831053@c.us"
 
 user_session = {}
 
@@ -238,7 +238,7 @@ def handler(notification: Notification):
                 "✅ *Order Confirmed!*\n\n"
                 "📞 Please contact our owner:\n"
                 "If you need more guide contect us\n"
-                "📱 *number*\n\n"
+                "📱 *0346-2831053*\n\n"
                 "Reliable & scalable solutions guaranteed ✅"
             )
 
@@ -254,5 +254,6 @@ def handler(notification: Notification):
 
 
 bot.run_forever()
+
 
 
